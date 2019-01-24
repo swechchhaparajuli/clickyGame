@@ -50,7 +50,6 @@ class App extends Component {
       a[i].id = i+1;
     }
 
-    
   this.setState({ a });
     
   };
@@ -60,11 +59,12 @@ class App extends Component {
     return (
       
       <Wrapper>
+
         <Title>Hogwarts Clicky Game</Title>
+        
         <Counter 
           score={score} 
-          
-          />
+        />
         {this.state.friends.map(friend => (
           <FriendCard
             shuffle={this.shuffle}
@@ -76,6 +76,7 @@ class App extends Component {
             checked={friend.checked}
           />
         ))}
+        
       </Wrapper>
     );
   }
