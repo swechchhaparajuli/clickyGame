@@ -49,8 +49,8 @@ class App extends Component {
     for (let i = 0; i < a.length; i++) {
       a[i].id = i+1;
     }
- 
 
+    
   this.setState({ a });
     
   };
