@@ -1,0 +1,94 @@
+[
+  {
+    "id": 1,
+    "name": "Harry Potter",
+    "image": "https://media.giphy.com/media/bvAHdCC7xSA1O/giphy.gif",
+    "house": "Gryffindor"
+
+  },
+  {
+    "id": 2,
+    "name": "Hermione Granger",
+    "image": "https://media.giphy.com/media/6c2z5ySoRxyfe/giphy.gif",
+    "house": "Gryffindor"
+  },
+  {
+    "id": 3,
+    "name": "Ronald Weasley",
+    "image": "https://media.giphy.com/media/AUarrmo6rpyX6/giphy.gif",
+    "house": "Gryffindor"
+  },
+  {
+    "id": 4,
+    "name": "Dobby",
+    "image": "https://media.giphy.com/media/2xkwkcXrMbPBS/giphy.gif",
+    "house": "Not a wizard"
+  },
+  {
+    "id": 5,
+    "name": "Molly Weasley",
+    "image": "https://media.giphy.com/media/13hnJZf4L5zWpO/giphy.gif",
+    "house": "Gryffindor"
+  },
+  {
+    "id": 6,
+    "name": "Narcissa Black",
+    "image": "https://media.giphy.com/media/10sxtABw6rZT2w/giphy.gif",
+    "house": "Slytherin"
+  },
+  {
+    "id": 7,
+    "name": "Bellatrix Lestrange",
+    "image": "https://media.giphy.com/media/12rAeiI9zmxoGY/giphy.gif",
+    "house": "Slytherin"
+  },
+  {
+    "id": 8,
+    "name": "Professor Mcgonagall",
+    "image": "https://media.giphy.com/media/yzYl1v1Bgj25W/giphy.gif",
+    "house": "Gryffindor"
+  },
+  {
+    "id": 9,
+    "name": "Albus Dumbledore",
+    "image": "https://media.giphy.com/media/720g7C1jz13wI/giphy.gif",
+    "house": "Gryffindor"
+  },
+  {
+    "id": 10,
+    "name": "Severus Snape",
+    "image": "https://media.giphy.com/media/vLOVgH5FABgt2/giphy.gif",
+    "house": "Slytherin"
+  },
+  {
+    "id": 11,
+    "name": "Hagrid",
+    "image": "https://media.giphy.com/media/r29dfggBpSsSY/giphy.gif",
+    "house": "Gryffindor"
+  },
+  {
+    "id": 12,
+    "name": "Draco Malfoy",
+    "image": "https://media.giphy.com/media/xBcBAQnWxpWX6/giphy.gif",
+    "house": "Slytherin"
+  },
+  {
+    "id": 13,
+    "name": "Voldemort",
+    "image": "https://media.giphy.com/media/Tg61sKSV8Ud2M/giphy.gif",
+    "house": "Slytherin"
+  },
+  {
+    "id": 14,
+    "name": "Luna Lovegood",
+    "image": "https://media.giphy.com/media/HUjc0sbfgaInK/giphy.gif",
+    "house": "Ravenclaw"
+  },
+  {
+    "id": 15,
+    "name": "Sirius Black",
+    "image": "https://media.giphy.com/media/1Xoxu3AzGIpy0/giphy.gif",
+    "house": "Gryffindor"
+  }
+
+]
