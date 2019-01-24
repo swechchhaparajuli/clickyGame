@@ -16,14 +16,16 @@ class App extends Component {
     friends
   };
 
-
-
   shuffle = id => {
 
-    const a = this.state.friends;
-    console.log(a);
+    var a = this.state.friends;
 
-  if(a[id-1].checked === 1){
+    console.log("id" + id);
+    
+    console.log(a[id-1].name + " " + a[id-1].checked);
+
+    // dont mess with this it works fine
+  if(a[id-1].checked !== 0){
     console.log("You Already clicked this! You Lose!");
     // clears them all 
     for (let i = a.length - 1; i > 0 || i === 0; i--) {
@@ -34,19 +36,20 @@ class App extends Component {
     }
     score = 0;
   }else{
-    
     a[id-1].checked = 1;
     score++;
   }
-  
-    console.log(a[id-1].name + " " + a[id-1].checked);
-    console.log(score);
 
-          //shuffle
+  //shuffle -- also works swimmingly dont mess
   for (let i = a.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [a[i], a[j]] = [a[j], a[i]];
   }
+    //update ids
+    for (let i = 0; i < a.length; i++) {
+      a[i].id = i+1;
+    }
+ 
 
   this.setState({ a });
     
